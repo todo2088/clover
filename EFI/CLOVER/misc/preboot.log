@@ -1,0 +1,350 @@
+0:100  0:100  MemLog inited, TSC freq: 2401772340
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 31.10.2019,  21:39:57 (GMT)
+0:100  0:000  Starting Clover revision: 5097 (master, commit ed6a6bdb) on Lenovo EFI
+0:100  0:000  Build with: [Args: -t XCODE8 | --conf=/opt/Extra/Clover_Install/src/edk2/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 13 | OS: 10.15]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(1,GPT,3648E1B0-C907-4D89-B83C-9308AD43E875,0x28,0x64000) @AFFCC298
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 33886FB5
+0:100  0:000  SmbiosTable.Type17->PartNumber = M471B5173EB0-YK0  
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 157BDA77
+0:100  0:000  SmbiosTable.Type17->PartNumber = M471B5173EB0-YK0  
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: '20FNA072CD' with board '20FNA072CD'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=406E3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 200
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 24017723
+0:100  0:000   Rounded ARTFrequency: 24000000
+0:100  0:000  MSR 0xE2 before patch 7E008006
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              0004043D_F1011800
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 96 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 24.0/4
+0:100  0:000  Turbo: 27/27/27/28
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2300 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80010160)
+0:100  0:000  PCI (00|00:00.00) : 8086 1904 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 1916 class=030000
+0:100  0:000   - GOP: Provided by device
+0:100  0:000   - GFX: Model=Intel HD Graphics 520 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 9D03 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 9D10 class=060400
+0:100  0:000  PCI (00|02:00.00) : 10EC 522A class=FF0000
+0:100  0:000  PCI (00|00:1C.02) : 8086 9D12 class=060400
+0:101  0:000  PCI (00|04:00.00) : 8086 24F3 class=028000
+0:101  0:000   - WIFI: Vendor=Intel
+0:101  0:000  PCI (00|00:1D.00) : 8086 9D18 class=060400
+0:101  0:000  PCI (00|06:00.00) : 10DE 134D class=030200
+0:101  0:000  PCI (00|00:1F.00) : 8086 9D48 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:101  0:000  PCI (00|00:1F.03) : 8086 9D70 class=040300
+0:101  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:101  0:000  PCI (00|00:1F.06) : 8086 1570 class=020000
+0:101  0:000   - LAN: 0 Vendor=Intel
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 40 bytes
+0:101  0:000  Clover started with option to boot boot.efi from Preboot
+0:104  0:002  EFI\CLOVER\config.plist loaded: Success
+0:104  0:000  === [ GetListOfThemes ] ===================================
+0:105  0:000  - [00]: ThinkPad
+0:106  0:001  - [01]: Clovy
+0:108  0:002  === [ Found config plists ] ===============================
+0:108  0:000  - config_new.plist
+0:110  0:001  - config.noSKL.plist
+0:110  0:000  - config.plist
+0:110  0:000  - config copy.plist
+0:110  0:000  - config_HD515_520_530_540 copy.plist
+0:111  0:000  === [ GetEarlyUserSettings ] ==============================
+0:111  0:000  timeout set to 3
+0:111  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:111  0:000  KextsToPatch: 30 requested
+0:111  0:000   - [00]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (Skylake minStolenSize patch less or equal fStolenMemorySize assertion, 10.11.4 - based on Austere.J patch) :: MatchOS: 10.11.x :: BinPatch :: data len: 5
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [01]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (Skylake minStolenSize patch (credit RehabMan based on original by Austere.J) for Sierra) :: MatchOS: 10.12.x :: BinPatch :: data len: 7
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [02]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (Disable minStolenSize less or equal fStolenMemorySize assertion, 10.13 (credit PMHeart, , shdkpr2008)) :: MatchOS: 10.13.x :: BinPatch :: data len: 6
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [03]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 (credit Austere.J)) :: MatchOS: 10.14.x :: BinPatch :: data len: 8
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [04]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (Framebuffer - eDP) :: BinPatch :: data len: 12
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [05]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (Framebuffer - brightness) :: BinPatch :: data len: 8
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [06]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (HDMI-audio, port 0105, 0x19160000 - T460 DP on left side) :: BinPatch :: data len: 12
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [07]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (HDMI-audio, port 0204, 0x19160000 - T460 HDMI on right side) :: BinPatch :: data len: 12
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [08]: com.apple.driver.AppleHDA (ALC 293 #1) :: BinPatch :: data len: 4
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [09]: com.apple.driver.AppleHDA (ALC 293 #2) :: BinPatch :: data len: 4
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [10]: com.apple.driver.AppleHDA (ALC 293 #3) :: BinPatch :: data len: 4
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [11]: com.apple.driver.AppleHDA (ALC 293 #4) :: BinPatch :: data len: 4
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [12]: com.apple.driver.AppleHDA (ALC 293 #5) :: BinPatch :: data len: 8
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [13]: com.apple.driver.AppleHDA (ALC 293 #6) :: BinPatch :: data len: 8
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [14]: com.apple.driver.AppleHDA (ALC 293 #7) :: BinPatch :: data len: 8
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [15]: AppleUSBXHCIPCI (change 15 port limit to 26 in XHCI kext (100-series)) :: MatchOS: 10.11.x :: BinPatch :: data len: 7
+0:111  0:000   - [16]: AppleUSBXHCIPCI (change 15 port limit to 26 in XHCI kext (100-series)) :: MatchOS: 10.12.x :: BinPatch :: data len: 7
+0:111  0:000   - [17]: IOAHCIBlockStorage (Enable TRIM for non-Apple SSDs) :: BinPatch :: data len: 11
+0:111  0:000   - [18]: IOGraphicsFamily (Boot graphics glitch, 10.12.dp1 (credit denskop)) :: MatchOS: 10.12.x,10.13.x :: BinPatch :: data len: 5
+0:111  0:000   - [19]: IOBluetoothFamily (10.11.dp1+ BT4LE-Handoff-Hotspot, credit RehabMan based on Dokterdok original) :: MatchOS: 10.11.x,10.12.x :: BinPatch :: data len: 8
+0:111  0:000   - [20]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - darkvoid fcvo patch) :: MatchOS: 10.12.x :: BinPatch :: data len: 8
+0:111  0:000   - [21]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - PCI Error 1) :: MatchOS: 10.12.x :: BinPatch :: data len: 5
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [22]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - PCI Error 2) :: MatchOS: 10.12.x :: BinPatch :: data len: 8
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [23]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - PCI Error 3) :: MatchOS: 10.12.x :: BinPatch :: data len: 6
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [24]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - whitelist patch (board-id), 10.12.dp1, credit RehabMan) :: MatchOS: 10.12.x :: BinPatch :: data len: 8
+0:111  0:000   - [25]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - whitelist patch (board-id), 10.11.x, credit RehabMan) :: MatchOS: 10.11.x :: BinPatch :: data len: 8
+0:111  0:000   - [26]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - Airport-Extreme) :: MatchOS: 10.11.x,10.12.x :: BinPatch :: data len: 6
+0:111  0:000   - [27]: com.apple.driver.AirPort.Brcm4360 (BCM94325 - 10.10.2+ 5Ghz US FCC, the-darkvoid) :: MatchOS: 10.11.x,10.12.x :: BinPatch :: data len: 7
+0:111  0:000   - patch disabled at config
+0:111  0:000   - [28]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - 5Ghz US FCC - alternate from Ramalama) :: MatchOS: 10.11.x,10.12.x :: BinPatch :: data len: 7
+0:111  0:000   - [29]: com.apple.driver.AirPort.Brcm4360 (BCM94352 - 5 GHz DE) :: MatchOS: 10.12 :: BinPatch :: data len: 7
+0:111  0:000   - patch disabled at config
+0:111  0:000  KernelToPatch: 1 requested
+0:111  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:111  0:000  Default theme: ThinkPad
+0:111  0:000  === [ LoadDrivers ] =======================================
+0:113  0:001  Loading FSInject.efi  status=Success
+0:114  0:001  Loading SMCHelper.efi  status=Success
+0:116  0:001  Loading VBoxHfs.efi  status=Success
+0:118  0:001   - driver needs connecting
+0:118  0:000  Loading EmuVariableUefi.efi  status=Success
+0:119  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:119  0:000  Loading ApfsDriverLoader.efi  status=Success
+0:120  0:000   - driver needs connecting
+0:120  0:000  Loading AudioDxe.efi  status=Success
+0:121  0:001   - driver needs connecting
+0:121  0:000  Loading AptioMemoryFix.efi  status=Success
+0:123  0:001  3 drivers needs connecting ...
+0:123  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:123  0:000  APFS driver loaded
+0:123  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:491  4:367  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+4:611  0:120  === [ InitScreen ] ========================================
+4:611  0:000  Console modes reported: 5, available modes:
+4:611  0:000   - [01]: 80x25
+4:611  0:000   - [03]: 128x40
+4:611  0:000   - [04]: 100x31
+4:611  0:000   - [05]: 240x56 (current mode)
+4:611  0:000  SetScreenResolution: 1920x1080 - already set
+4:611  0:000  SetScreenResolution: 1920x1080 - already set
+4:611  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(1,GPT,3648E1B0-C907-4D89-B83C-9308AD43E875,0x28,0x64000)
+4:611  0:000  === [ GetMacAddress ] =====================================
+4:611  0:000  MAC address of LAN #0= C8:5B:76:7A:17:12:
+4:611  0:000  MAC address of LAN #1= C8:5B:76:7A:17:12:
+4:611  0:000  MAC address of LAN #2= C8:5B:76:7A:17:12:
+4:611  0:000  MAC address of LAN #3= C8:5B:76:7A:17:12:
+4:611  0:000  === [ ScanSPD ] ===========================================
+4:612  0:000  Scanning SMBus [8086:9D23], mmio: 0xF424D004, ioport: 0xEFA0, hostc: 0x11
+4:631  0:018  Slot: 0 Type 24 4096MB 1600MHz Vendor=Samsung PartNo=M471B5173EB0-YK0 SerialNo=03030808060F0B05
+4:650  0:018  Slot: 1 Type 24 4096MB 1600MHz Vendor=Samsung PartNo=M471B5173EB0-YK0 SerialNo=0105070B0D0A0707
+4:651  0:000  === [ GetAcpiTablesList ] =================================
+4:651  0:000  Get Acpi Tables List from RSDT:
+4:651  0:000   - [00]: FACP  TP-R06   len=244
+4:651  0:000   - [01]: UEFI  TP-R06   len=66
+4:651  0:000   - [02]: SSDT  SaSsdt  len=20014
+4:651  0:000   - [03]: SSDT  PerfTune len=1477
+4:651  0:000   - [04]: ECDT  TP-R06   len=82
+4:651  0:000   - [05]: HPET  TP-R06   len=56
+4:651  0:000   - [06]: APIC  TP-R06   len=188
+4:651  0:000   - [07]: MCFG  TP-R06   len=60
+4:651  0:000   - [08]: SSDT  SataAhci len=6354
+4:651  0:000   - [09]: DBGP  TP-R06   len=52
+4:651  0:000   - [10]: DBG2  TP-R06   len=84
+4:651  0:000   - [11]: BOOT  TP-R06   len=40
+4:651  0:000   - [12]: BATB  TP-R06   len=74
+4:651  0:000   - [13]: SSDT  CpuSsdt len=3699
+4:651  0:000   - [14]: SSDT  CtdpB len=985
+4:651  0:000   - [15]: MSDM  TP-R06   len=85
+4:651  0:000   - [16]: SSDT  NvOptTbl len=36
+4:651  0:000   - [17]: SSDT  SgPch len=5031
+4:651  0:000   - [18]: DMAR  TP-R06   len=168
+4:651  0:000   - [19]: ASF!  TP-R06   len=165
+4:651  0:000   - [20]: FPDT  TP-R06   len=68
+4:651  0:000   - [21]: UEFI  TP-R06   len=318
+4:651  0:000  Calibrated TSC Frequency = 2401772340 = 2401MHz
+4:651  0:000  === [ GetUserSettings ] ===================================
+4:651  0:000  Add 1 devices:
+4:651  0:000  USB FixOwnership: no
+4:651  0:000  Dropping 1 tables:
+4:651  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+4:651  0:000           - set table: 52414D44,                0 to drop: yes
+4:651  0:000   - final DSDT Fix mask=10060050
+4:651  0:000  PatchesDSDT: 11 requested
+4:651  0:000   - [00]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:651  0:000   - [01]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:651  0:000   - [02]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:651  0:000   - [03]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:651  0:000   - [04]: (change SAT1 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:651  0:000    patch disabled at config
+4:651  0:000   - [05]: (change _PTS to ZPTS) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:651  0:000   - [06]: (change _WAK to ZWAK (T460)) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:651  0:000   - [07]: (change Notify(\_SB.BAT0 to Notify(_SB.BATC) lenToFind: 11, lenToReplace: 11, Target Bridge: <null string>
+4:651  0:000   - [08]: (change Notify(\_SB.BAT1 to Notify(_SB.BATC) lenToFind: 11, lenToReplace: 11, Target Bridge: <null string>
+4:651  0:000   - [09]: (change Notify(BAT0 to Notify(BATC ) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:651  0:000   - [10]: (change Notify(BAT1 to Notify(BATC ) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:651  0:000  ResetAddr: 0xCF9
+4:651  0:000  Calc ResetVal: 0x6
+4:651  0:000  ResetVal: 0x6
+4:651  0:000  Using ProductName from config: MacBookPro13,1
+4:651  0:000  BiosVersion: not set, Using BiosVersion from clover
+4:651  0:000  BiosVersion: MBP131.88Z.F000.B00.1909131924
+4:651  0:000  BiosReleaseDate: 09/13/2019
+4:651  0:000  Using EfiVersion from clover: 240.0.0.0.0
+4:651  0:000  Using FirmwareFeatures from clover: 0xFC0FE176
+4:651  0:000  Using FirmwareFeaturesMask from clover: 0xFF1FFF7F
+4:651  0:000  Using PlatformFeature from clover: 0x1A
+4:651  0:000  === [ Found DSDT tables ] =================================
+4:652  0:001  - DSDT.aml
+4:753  0:100  === [ ScanVolumes ] =======================================
+4:753  0:000  Found 10 volumes with blockIO
+4:753  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+4:753  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(1,GPT,3648E1B0-C907-4D89-B83C-9308AD43E875,0x28,0x64000)
+4:753  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:753  0:000          This is SelfVolume !!
+4:753  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,EB217068-AB51-4726-896E-1EF4EB2DB314,0x64800,0xEE78800)
+4:753  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:753  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)
+4:754  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:754  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(4,GPT,55200017-4CA3-42FC-9DA8-015C75756124,0x1979FB70,0x44D3718)
+4:754  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,32289334BD044D4482052321F18B7737)
+4:754  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,59EFDB3A21C7B83E84D5B04D0B8C0CC0)
+4:754  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,746C1E03FF8CC6448F1E3FCEE025090A)
+4:754  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1BDD6BD4208AA242B03051EFAC33B8AD)
+4:754  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8C11B83D79C60945AF055D0D4006512A)
+4:755  0:001  Loading nvram.plist from Vol 'EFI' - loaded, size=4584
+4:757  0:001  === [ PutNvramPlistToRtVars ] =============================
+4:757  0:000   Adding Key: EFILoginHiDPI: Size = 4, Data: 00 00 00 00 
+4:757  0:000   Skipping EmuVariableUefiPresent
+4:757  0:000   Adding Key: SystemAudioVolume: Size = 1, Data: 80 
+4:757  0:000   Adding Key: SystemAudioVolumeDB: Size = 1, Data: FA 
+4:757  0:000   Adding Key: backlight-level: Size = 2, Data: 66 05 
+4:757  0:000   Adding Key: bluetoothActiveControllerInfo: Size = 16, Data: 2B 0A 87 80 00 00 00 00 60 14 00 00 00 00 00 00 
+4:757  0:000   Adding Key: csr-active-config: Size = 4, Data: 67 00 00 00 
+4:757  0:000   Adding Key: efi-backup-boot-device: Size = 441, Data: 3C 61 72 72 61 79 3E 3C 64 69 63 74 3E 3C 6B 65 79 3E 49 4F 4D 61 74 63 68 3C 2F 6B 65 79 3E 3C 64 69 63 74 3E 3C 6B 65 79 3E 49 4F 50 72 6F 76 69 64 65 72 43 6C 61 73 73 3C 2F 6B 65 79 3E 3C 73 74 72 69 6E 67 3E 49 4F 4D 65 64 69 61 3C 2F 73 74 72 69 6E 67 3E 3C 6B 65 79 3E 49 4F 50 72 6F 70 65 72 74 79 4D 61 74 63 68 3C 2F 6B 65 79 3E 3C 64 69 63 74 3E 3C 6B 65 79 3E 55 55 49 44 3C 2F 6B 65 79 3E 3C 73 74 72 69 6E 67 3E 33 34 39 33 32 38 33 32 2D 30 34 42 44 2D 34 34 34 44 2D 38 32 30 35 2D 32 33 32 31 46 31 38 42 37 37 33 37 3C 2F 73 74 72 69 6E 67 3E 3C 2F 64 69 63 74 3E 3C 2F 64 69 63 74 3E 3C 6B 65 79 3E 42 4C 4C 61 73 74 42 53 44 4E 61 6D 65 3C 2F 6B 65 79 3E 3C 73 74 72 69 6E 67 3E 64 69 73 6B 31 73 32 3C 2F 73 74 72 69 6E 67 3E 3C 2F 64 69 63 74 3E 3C 64 69 63 74 3E 3C 6B 65 79 3E 49 4F 45 46 49 44 65 76 69 63 65 50 61 74 68 54 79 70 65 3C 2F 6B 65 79 3E 3C 73 74 72 69 6E 67 3E 4D 65 64 69 61 46 69 6C 65 50 61 74 68 3C 2F 73 74 72 69 6E 67 3E 3C 6B 65 79 3E 50 61 74 68 3C 2F 6B 65 79 3E 3C 73 74 72 69 6E 67 3E 03 41 44 42 45 46 35 39 2D 43 37 32 31 2D 33 45 42 38 2D 38 34 44 35 2D 42 30 34 44 30 42 38 43 30 43 43 30 5C 53 79 73 74 65 6D 5C 4C 69 62 72 61 72 79 5C 43 6F 72 65 53 65 72 76 69 63 65 73 08 6F 6F 74 2E 65 66 69 3C 2F 73 74 72 69 6E 67 3E 3C 2F 64 69 63 74 3E 3C 2F 61 72 72 61 79 3E 
+4:757  0:000   Adding Key: efi-backup-boot-device-data: Size = 264, Data: 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 17 03 12 0A 00 01 00 00 00 00 00 04 01 2A 00 02 00 00 00 80 D1 ED 0E 00 00 00 00 F0 29 8C 0A 00 00 00 00 3C 81 7A 30 EC 1C A7 4B AB 51 91 75 36 DE 32 11 02 02 04 03 24 00 F7 FC 74 BE 7C 0B F3 49 91 47 01 F4 04 2E 68 42 32 28 93 34 BD 04 4D 44 82 05 23 21 F1 8B 77 37 04 04 9A 00 5C 00 33 00 41 00 44 00 42 00 45 00 46 00 35 00 39 00 2D 00 43 00 37 00 32 00 31 00 2D 00 33 00 45 00 42 00 38 00 2D 00 38 00 34 00 44 00 35 00 2D 00 42 00 30 00 34 00 44 00 30 00 42 00 38 00 43 00 30 00 43 00 43 00 30 00 5C 00 53 00 79 00 73 00 74 00 65 00 6D 00 5C 00 4C 00 69 00 62 00 72 00 61 00 72 00 79 00 5C 00 43 00 6F 00 72 00 65 00 53 00 65 00 72 00 76 00 69 00 63 00 65 00 73 00 5C 00 62 00 6F 00 6F 00 74 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 
+4:757  0:000   Adding Key: fakesmc-key-#KEY-ui32: Size = 4, Data: 00 00 00 11 
+4:757  0:000   Adding Key: fakesmc-key-$Adr-ui32: Size = 4, Data: 00 00 03 00 
+4:757  0:000   Adding Key: fakesmc-key-$Num-ui8: Size = 1, Data: 01 
+4:757  0:000   Adding Key: fakesmc-key-BATP-flag: Size = 1, Data: 00 
+4:757  0:000   Adding Key: fakesmc-key-BBIN-ui8: Size = 1, Data: 01 
+4:757  0:000   Adding Key: fakesmc-key-BEMB-flag: Size = 1, Data: 01 
+4:757  0:000   Adding Key: fakesmc-key-BNum-ui8: Size = 1, Data: 01 
+4:757  0:000   Adding Key: fakesmc-key-EPCI-ui32: Size = 4, Data: 09 20 F0 00 
+4:757  0:000   Adding Key: fakesmc-key-MSAc-ui16: Size = 2, Data: 00 00 
+4:757  0:000   Adding Key: fakesmc-key-MSFW-ui8: Size = 2, Data: 01 00 
+4:757  0:000   Adding Key: fakesmc-key-MSPS-ui16: Size = 2, Data: 00 03 
+4:757  0:000   Adding Key: fakesmc-key-MSTc-ui8: Size = 1, Data: 00 
+4:757  0:000   Adding Key: fakesmc-key-MSWr-ui8: Size = 1, Data: 00 
+4:757  0:000   Adding Key: fakesmc-key-RBr -ch8*: Size = 8, Data: 32 30 31 36 6D 62 00 00 
+4:757  0:000   Adding Key: fakesmc-key-REV -ch8*: Size = 6, Data: 02 36 0F 00 00 98 
+4:757  0:000   Adding Key: fakesmc-key-RMde-char: Size = 1, Data: 41 
+4:757  0:000   Adding Key: fakesmc-key-RPlt-ch8*: Size = 8, Data: 6A 31 33 30 00 00 00 00 
+4:757  0:000   Adding Key: flagstate: Size = 32, Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+4:757  0:000   Adding Key: fmm-computer-name: Size = 16, Data: 79 75 6E E2 80 99 73 20 54 68 69 6E 6B 70 61 64 
+4:757  0:000   Adding Key: fmm-mobileme-token-FMM: Size = 756, Data: 62 70 6C 69 73 74 30 30 DD 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 16 17 0E 18 0E 19 1A 1B 1C 1D 1F 5F 10 0F 75 6E 72 65 67 69 73 74 65 72 53 74 61 74 65 58 75 73 65 72 49 6E 66 6F 59 61 75 74 68 54 6F 6B 65 6E 5E 72 6F 6F 74 56 6F 6C 75 6D 65 55 55 49 44 5E 64 69 73 61 62 6C 65 43 6F 6E 74 65 78 74 56 75 73 65 72 69 64 5D 65 6E 61 62 6C 65 43 6F 6E 74 65 78 74 58 75 73 65 72 6E 61 6D 65 58 70 65 72 73 6F 6E 49 44 54 67 75 69 64 57 61 64 64 54 69 6D 65 5F 10 12 65 6E 61 62 6C 65 64 44 61 74 61 63 6C 61 73 73 65 73 5F 10 13 64 61 74 61 63 6C 61 73 73 50 72 6F 70 65 72 74 69 65 73 10 00 D3 10 11 12 13 14 15 5F 10 15 49 6E 55 73 65 4F 77 6E 65 72 44 69 73 70 6C 61 79 4E 61 6D 65 5F 10 13 49 6E 55 73 65 4F 77 6E 65 72 46 69 72 73 74 4E 61 6D 65 5F 10 12 49 6E 55 73 65 4F 77 6E 65 72 4C 61 73 74 4E 61 6D 65 63 4E 1C 65 B9 4E BA 61 4E BA 62 4E 1C 65 B9 5F 10 28 41 51 41 41 41 41 42 63 51 48 32 6D 44 66 4B 4E 56 55 35 30 68 67 6D 79 70 5A 65 2D 34 44 6B 64 38 69 2D 75 5F 44 59 7E 5F 10 24 33 44 42 38 31 31 38 43 2D 43 36 37 39 2D 34 35 30 39 2D 41 46 30 35 2D 35 44 30 44 34 30 30 36 35 31 32 41 11 01 F5 5F 10 10 37 32 37 39 38 35 37 36 37 40 71 71 2E 63 6F 6D 5A 38 30 37 30 33 30 37 39 32 33 5F 10 24 35 37 45 38 31 44 37 45 2D 43 36 31 45 2D 34 45 43 43 2D 41 35 39 32 2D 36 42 36 41 45 32 31 36 35 35 32 36 23 41 D7 10 1F 69 93 5C BC A1 1E 5F 10 21 63 6F 6D 2E 61 70 70 6C 65 2E 44 61 74 61 63 6C 61 73 73 2E 44 65 76 69 63 65 4C 6F 63 61 74 6F 72 D1 1E 20 D5 21 22 23 24 25 26 27 28 29 2A 56 61 70 73 45 6E 76 58 68 6F 73 74 6E 61 6D 65 5D 69 64 73 49 64 65 6E 74 69 66 69 65 72 56 73 63 68 65 6D 65 5D 61 75 74 68 4D 65 63 68 61 6E 69 73 6D 5A 50 72 6F 64 75 63 74 69 6F 6E 5F 10 13 70 36 35 2D 66 6D 69 70 2E 69 63 6C 6F 75 64 2E 63 6F 6D 5F 10 24 36 34 33 35 43 46 42 37 2D 33 44 35 37 2D 34 34 46 33 2D 38 36 32 34 2D 34 42 32 31 42 36 34 44 39 39 44 38 55 68 74 74 70 73 55 74 6F 6B 65 6E 00 08 00 23 00 35 00 3E 00 48 00 57 00 66 00 6D 00 7B 00 84 00 8D 00 92 00 9A 00 AF 00 C5 00 C7 00 CE 00 E6 00 FC 01 11 01 18 01 1B 01 20 01 4B 01 72 01 75 01 88 01 93 01 BA 01 C3 01 C5 01 E9 01 EC 01 F7 01 FE 02 07 02 15 02 1C 02 2A 02 35 02 4B 02 72 02 78 00 00 00 00 00 00 02 01 00 00 00 00 00 00 00 2B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 7E 
+4:757  0:000   Adding Key: fmm-mobileme-token-FMM-BridgeHasAccount: Size = 21, Data: 42 72 69 64 67 65 48 61 73 41 63 63 6F 75 6E 74 56 61 6C 75 65 
+4:758  0:000   Adding Key: install-product-url: Size = 73, Data: 78 2D 6F 73 70 72 6F 64 75 63 74 3A 2F 2F 33 41 44 42 45 46 35 39 2D 43 37 32 31 2D 33 45 42 38 2D 38 34 44 35 2D 42 30 34 44 30 42 38 43 30 43 43 30 2F 6D 61 63 4F 53 25 32 30 49 6E 73 74 61 6C 6C 25 32 30 44 61 74 61 
+4:758  0:000   Adding Key: prev-lang:kbd: Size = 11, Data: 7A 68 2D 48 61 6E 73 3A 32 35 32 
+4:758  0:000   Adding Key: previous-system-uuid: Size = 36, Data: 33 41 44 42 45 46 35 39 2D 43 37 32 31 2D 33 45 42 38 2D 38 34 44 35 2D 42 30 34 44 30 42 38 43 30 43 43 30 
+4:758  0:000   Adding Key: security-mode: String: Size = 4, Val = 'none'
+4:758  0:000   Adding Key: specialbootdevice: Size = 110, Data: 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 17 03 12 0A 00 01 00 00 00 00 00 04 01 2A 00 02 00 00 00 80 D1 ED 0E 00 00 00 00 F0 29 8C 0A 00 00 00 00 3C 81 7A 30 EC 1C A7 4B AB 51 91 75 36 DE 32 11 02 02 04 03 24 00 F7 FC 74 BE 7C 0B F3 49 91 47 01 F4 04 2E 68 42 8C 11 B8 3D 79 C6 09 45 AF 05 5D 0D 40 06 51 2A 7F FF 04 00 
+4:758  0:000  found 2 handles with audio
+4:758  0:000  got index=2
+4:758  0:000  got volume 70
+4:758  0:000  === [ InitTheme ] =========================================
+4:758  0:000  use night theme
+4:760  0:002  Using theme 'ThinkPad' (EFI\CLOVER\themes\ThinkPad)
+4:760  0:000  OS main and drive as badge
+4:760  0:000  file sound read: sound_night.wav Not Found
+4:762  0:001    Channels: 2  Sample rate: 44100 Hz  Bits: 16
+4:762  0:000  output to channel 2 with volume 70, len=421120
+4:762  0:000   sound channels=2 bits=16 freq=44100
+7:612  2:850  free sound
+7:612  0:000  sound play end with status=Success
+7:614  0:001  Loading font from ThemeDir: Success
+7:614  0:000  theme inited
+7:614  0:000  Chosen theme ThinkPad
+7:614  0:000  after NVRAM boot-args=kext-dev-mode=1
+7:614  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+7:614  0:000  found AppleSMC protocol
+7:615  0:000  Registered 17 SMC keys
+7:615  0:000  === [ AddCustomEntries ] ==================================
+7:615  0:000  Custom entry 0 FullTitle:"Boot Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"Insert Windows Disk EFI Partition GUID here"
+7:615  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(1,GPT,3648E1B0-C907-4D89-B83C-9308AD43E875,0x28,0x64000)) ... skipped
+7:615  0:000      Checking volume "XData" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(4,GPT,55200017-4CA3-42FC-9DA8-015C75756124,0x1979FB70,0x44D3718)) ... skipped
+7:615  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,32289334BD044D4482052321F18B7737)) ... skipped
+7:615  0:000      Checking volume "macOSX - pn" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,59EFDB3A21C7B83E84D5B04D0B8C0CC0)) ... skipped
+7:615  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,746C1E03FF8CC6448F1E3FCEE025090A)) ... skipped
+7:615  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1BDD6BD4208AA242B03051EFAC33B8AD)) ... skipped
+7:615  0:000      Checking volume "macOSX" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8C11B83D79C60945AF055D0D4006512A)) ... skipped
+7:615  0:000  === [ ScanLoader ] ========================================
+7:615  0:000  - [01]: 'EFI'
+7:649  0:033          AddLoaderEntry for Volume Name=EFI
+7:649  0:000          skipped because entry is hidden
+7:649  0:000  - [04]: 'XData'
+7:676  0:026  - [05]: 'Preboot'
+7:677  0:000          AddLoaderEntry for Volume Name=Preboot
+7:678  0:001      hibernated: set as never
+7:709  0:031  - [06]: 'macOSX - pn'
+7:737  0:027  - [07]: 'Recovery'
+7:737  0:000          AddLoaderEntry for Volume Name=Recovery
+7:768  0:030  - [08]: 'VM'
+7:795  0:026  - [09]: 'macOSX'
+7:800  0:004          AddLoaderEntry for Volume Name=macOSX
+7:801  0:001      hibernated: set as never
+7:830  0:029  === [ AddCustomTool ] =====================================
+7:831  0:000  found tool \EFI\CLOVER\tools\Shell64.efi
+7:831  0:000  Checking EFI partition Volume 1 for Clover
+7:831  0:000   Found Clover
+7:832  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+7:833  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+7:930  0:097  === [ GetEfiBootDeviceFromNvram ] =========================
+7:931  0:000   - found entry 2. 'Boot macOS from macOSX', Volume 'macOSX', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(3,GPT,307A813C-1CEC-4BA7-AB51-917536DE3211,0xEEDD180,0xA8C29F0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8C11B83D79C60945AF055D0D4006512A)\System\Library\CoreServices\boot.efii'
+7:931  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+7:931  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+10:222  2:290  GUI ready
+45:061  34:839  exit from MainMenu 7
